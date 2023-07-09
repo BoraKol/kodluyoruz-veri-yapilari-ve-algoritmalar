@@ -1,12 +1,12 @@
 # Insertion Sort
 
-<b>Soru 1:</b> [22,27,16,2,18,6] -> Insertion Sort
+<b>1.Aşama:</b> [22,27,16,2,18,6] -> Insertion Sort
 
 Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
 ---
 
-<b>Cevap 1:</b> Karşılaştırma işlemine ikinci elemandan başlanılır. "*" işareti olan elemanlar soldaki elemanlarla tek tek karşılaştırılır. Soldakinden küçük ise yer değiştirirler. Bu işlem seçilen eleman soldaki sayıdan büyük olana kadar devam eder.
+<b>1.Aşamanın Cevabı:</b> Karşılaştırma işlemine ikinci elemandan başlanılır. "*" işareti olan elemanlar soldaki elemanlarla tek tek karşılaştırılır. Soldakinden küçük ise yer değiştirirler. Bu işlem seçilen eleman soldaki sayıdan büyük olana kadar devam eder.
 
 İşlem bittiğinde seçildiğinde kaçıncı elemansa sonraki eleman karşılaştırma için seçilir.
 
@@ -20,28 +20,28 @@ Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
 
 ---
-<b>Soru 2:</b> Big-O gösterimini yazınız.
+<b>2.Aşama:</b> Big-O gösterimini yazınız.
 
 ---
-<b>Cevap 2:</b> Eleman sayısı n olduğunda, her eleman için en fazla (n-1) karşılaştırma yapılır. Algoritmanın tüm elemanlarını bu şekilde işlemesi gerektiğinde, toplam karşılaştırma sayısı (n-1) + (n-2) + ... + 1 olur, ki bu toplam (n * (n-1) / 2)'ye eşittir.
+<b>2.Aşamanın Cevabı:</b> Eleman sayısı n olduğunda, her eleman için en fazla (n-1) karşılaştırma yapılır. Algoritmanın tüm elemanlarını bu şekilde işlemesi gerektiğinde, toplam karşılaştırma sayısı (n-1) + (n-2) + ... + 1 olur, ki bu toplam (n * (n-1) / 2)'ye eşittir.
 
 Big-O gösterimi için en yüksek dereceli terimi göstermemiz lazım. Onun için formülden (n^2) geldiği için gösterimi <b>O(n^2)</b> olur. 
 
 ---
-<b>Soru 3:</b> Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
+<b>3.Aşama:</b> Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
 
 1. Average case: Aradığımız sayının ortada olması
 2. Worst case: Aradığımız sayının sonda olması
 3. Best case: Aradığımız sayının dizinin en başında olması.
 
 ---
-<b>Cevap 3:</b> Dizi sıralandıktan sonraki hali <b>[2, 6, 16, 18, 22, 27]</b> olacaktır. 18 sayısı dizinin ortasındaki eleman olduğu için cevap "Average case" olacaktır.
+<b>3.Aşamanın Cevabı:</b> Dizi sıralandıktan sonraki hali <b>[2, 6, 16, 18, 22, 27]</b> olacaktır. 18 sayısı dizinin ortasındaki eleman olduğu için cevap "Average case" olacaktır.
 
 ---
-<b>Soru 4:</b> [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+<b>4.Aşama:</b> [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
 ---
-<b>Cevap 4:</b>
+<b>4.Aşamanın Cevabı:</b>
 
 1. [7, 3*, 5, 8, 2, 9, 4, 15, 6] -> [3, 7, 5, 8, 2, 9, 4, 15, 6]
 2. [3, 7, 5*, 8, 2, 9, 4, 15, 6] -> [3, 5, 7, 8, 2, 9, 4, 15, 6]
