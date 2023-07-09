@@ -1,11 +1,11 @@
 # Merge Sort
 
-<b>Soru 1:</b> [16,21,11,8,12,22] -> Merge Sort
+<b>1.Aşama:</b> [16,21,11,8,12,22] -> Merge Sort
 
 Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
 ---
-<b>Cevap 1:</b> Diziyi her seferinde iki grup olarak parçalıyoruz. Parçalanan dizileri de iki grup olarak parçalıyoruz, ta ki tek elemanlı olana kadar. Sonra tekrar parçaladığımız grupları birleştiriyoruz. Her grubu birleştirmeden önce kendi içinde sıralıyoruz, sonra iki diziyi birleştirirken sıralıyoruz. Son olarak soldan sağa doğru küçükten büyüğe elemanlar dizinin içinde sıralanmış oluyor.
+<b>1.Aşamanın Cevabı:</b> Diziyi her seferinde iki grup olarak parçalıyoruz. Parçalanan dizileri de iki grup olarak parçalıyoruz, ta ki tek elemanlı olana kadar. Sonra tekrar parçaladığımız grupları birleştiriyoruz. Her grubu birleştirmeden önce kendi içinde sıralıyoruz, sonra iki diziyi birleştirirken sıralıyoruz. Son olarak soldan sağa doğru küçükten büyüğe elemanlar dizinin içinde sıralanmış oluyor.
 
 <div style="text-align:center; font-weight:bold;"><p>[16,21,11,8,12,22]</p>
 <p>[16,21,11]<--->[8,12,22]</p>
@@ -17,10 +17,10 @@ Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 </div>
 
 ---
-<b>Soru 2:</b> Big-O gösterimini yazınız.
+<b>2.Aşama:</b> Big-O gösterimini yazınız.
 
 ---
-<b>Cevap 2:</b>
+<b>2.Aşamanın Cevabı:</b>
 
 "<em> Merge Sort, bir "böl-ve-fethet" (divide and conquer) algoritmasıdır. Aşağıda Merge Sort'un <span style="font-weight:bold; color:aqua">O(n*logn)</span> zaman karmaşıklığını açıklayan adımları bulabilirsiniz:
 
